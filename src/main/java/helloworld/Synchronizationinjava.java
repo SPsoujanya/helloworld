@@ -33,6 +33,7 @@ public class Synchronizationinjava {
 		{
 			new WebDriverWait(driver,timeout).until(ExpectedConditions.visibilityOf(element));
 			element.sendKeys(value);
+			//test commit
 			
 		}
 		
